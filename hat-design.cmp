@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPcb (2013-dec-23)-stable date = sam. 28 mars 2015 11:20:37 CET
+
+BeginCmp
+TimeStamp = /54F33B0F;
+Reference = C10;
+ValeurCmp = 0.1uF;
+IdModule  = dsk-SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F33B0B;
+Reference = H1;
+ValeurCmp = DRILL;
+IdModule  = dsk-drill-rpi-hat;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F33B0C;
+Reference = H2;
+ValeurCmp = DRILL;
+IdModule  = dsk-drill-rpi-hat;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F33B0D;
+Reference = H3;
+ValeurCmp = DRILL;
+IdModule  = dsk-drill-rpi-hat;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F33B0E;
+Reference = H4;
+ValeurCmp = DRILL;
+IdModule  = dsk-drill-rpi-hat;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F33B12;
+Reference = H5;
+ValeurCmp = DRILL;
+IdModule  = dsk-drill-rpi-hat-cam;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F33AFB;
+Reference = IC1;
+ValeurCmp = CAT24C32WI-GT3;
+IdModule  = HAT-SO8E;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F33B01;
+Reference = P5;
+ValeurCmp = CONN_2;
+IdModule  = HAT-PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F33B02;
+Reference = P7;
+ValeurCmp = TST;
+IdModule  = dsk-testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F33B03;
+Reference = P8;
+ValeurCmp = TST;
+IdModule  = dsk-testpoint;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F33AF3;
+Reference = P11;
+ValeurCmp = CONN_20X2;
+IdModule  = hat-PIN_ARRAY_20X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F33AFF;
+Reference = R8;
+ValeurCmp = 1K;
+IdModule  = dsk-SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F33B05;
+Reference = R9;
+ValeurCmp = 3.9K;
+IdModule  = dsk-SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F33B06;
+Reference = R10;
+ValeurCmp = 3.9K;
+IdModule  = dsk-SM0805;
+EndCmp
+
+EndListe

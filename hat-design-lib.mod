@@ -1,0 +1,521 @@
+PCBNEW-LibModule-V1  sam. 28 mars 2015 11:05:22 CET
+# encoding utf-8
+Units mm
+$INDEX
+HAT-PIN_ARRAY_2X1
+HAT-SO8E
+dsk-SM0805
+dsk-drill-rpi-hat
+dsk-drill-rpi-hat-cam
+dsk-testpoint
+hat-PIN_ARRAY_20X2
+$EndINDEX
+$MODULE HAT-PIN_ARRAY_2X1
+Po 0 0 0 15 4565C520 00000000 ~~
+Li HAT-PIN_ARRAY_2X1
+Cd Connecteurs 2 pins
+Kw CONN DEV
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1.905 0.762 0.762 0 0.1524 N V 21 N "PIN_ARRAY_2"
+T1 0 -1.905 0.762 0.762 0 0.1524 N I 21 N "Val**"
+DS -2.54 1.27 -2.54 -1.27 0.1524 21
+DS -2.54 -1.27 2.54 -1.27 0.1524 21
+DS 2.54 -1.27 2.54 1.27 0.1524 21
+DS 2.54 1.27 -2.54 1.27 0.1524 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_2x1.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE HAT-PIN_ARRAY_2X1
+$MODULE HAT-SO8E
+Po 0 0 0 15 4F33A5C7 00000000 ~~
+Li HAT-SO8E
+Cd module CMS SOJ 8 pins etroit
+Kw CMS SOJ
+Sc 0
+AR 
+Op 0 0 0
+At SMD
+T0 0 -0.889 1.143 1.143 0 0.1524 N V 21 N "SO8E"
+T1 0 1.016 0.889 0.889 0 0.1524 N V 21 N "VAL**"
+DS -2.667 1.778 -2.667 1.905 0.127 21
+DS -2.667 1.905 2.667 1.905 0.127 21
+DS 2.667 -1.905 -2.667 -1.905 0.127 21
+DS -2.667 -1.905 -2.667 1.778 0.127 21
+DS -2.667 -0.508 -2.159 -0.508 0.127 21
+DS -2.159 -0.508 -2.159 0.508 0.127 21
+DS -2.159 0.508 -2.667 0.508 0.127 21
+DS 2.667 -1.905 2.667 1.905 0.127 21
+$PAD
+Sh "8" R 0.59944 1.39954 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.905 -2.667
+$EndPAD
+$PAD
+Sh "1" R 0.59944 1.39954 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.905 2.667
+$EndPAD
+$PAD
+Sh "7" R 0.59944 1.39954 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.635 -2.667
+$EndPAD
+$PAD
+Sh "6" R 0.59944 1.39954 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.635 -2.667
+$EndPAD
+$PAD
+Sh "5" R 0.59944 1.39954 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.905 -2.667
+$EndPAD
+$PAD
+Sh "2" R 0.59944 1.39954 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.635 2.667
+$EndPAD
+$PAD
+Sh "3" R 0.59944 1.39954 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.635 2.667
+$EndPAD
+$PAD
+Sh "4" R 0.59944 1.39954 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.905 2.667
+$EndPAD
+$SHAPE3D
+Na "smd/cms_so8.wrl"
+Sc 0.5 0.32 0.5
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE HAT-SO8E
+$MODULE dsk-SM0805
+Po 0 0 0 15 54F34A94 00000000 ~~
+Li dsk-SM0805
+Sc 0
+AR 
+Op 0 0 0
+At SMD
+T0 0.4 -1.5 0.8 0.8 0 0.127 N V 21 N "SM0805"
+T1 -0.6 -1.5 0.8 0.8 0 0.127 N I 21 N "Val*"
+DS 0.3 -1 1.7 -1 0.15 21
+DS 1.7 -1 1.7 1 0.15 21
+DS 1.7 1 0.3 1 0.15 21
+DS -0.3 1 -1.6 1 0.15 21
+DS -1.6 1 -1.7 1 0.15 21
+DS -1.7 1 -1.7 -1 0.15 21
+DS -1.7 -1 -0.3 -1 0.15 21
+$PAD
+Sh "1" R 0.889 1.397 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.9525 0
+$EndPAD
+$PAD
+Sh "2" R 0.889 1.397 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.9525 0
+$EndPAD
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.1 0.1 0.1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE dsk-SM0805
+$MODULE dsk-drill-rpi-hat
+Po 0 0 0 15 54F0E960 00000000 ~~
+Li dsk-drill-rpi-hat
+Sc 0
+AR 
+Op 0 0 0
+T0 0 2.5 1 1 0 0.15 N I 21 N "dsk-drill-rpi-hat"
+T1 0 4 1 1 0 0.15 N I 21 N "VAL**"
+$PAD
+Sh "1" C 2.75 2.75 0 0 0
+Dr 2.75 0 0
+At STD N 0000FFFF
+Ne 0 ""
+Po 0 0
+.SolderMask 1.725
+.LocalClearance 1.725
+.ZoneConnection 0
+$EndPAD
+$EndMODULE dsk-drill-rpi-hat
+$MODULE dsk-drill-rpi-hat-cam
+Po 0 0 0 15 54F2FBBE 00000000 ~~
+Li dsk-drill-rpi-hat-cam
+Sc 0
+AR 
+Op 0 0 0
+T0 2.2 1.1 1 1 900 0.15 N I 21 N "dsk-drill-rpi-hat-cam"
+T1 -2 0.1 1 1 900 0.15 N I 21 N "VAL**"
+$PAD
+Sh "1" O 2 17 0 0 0
+Dr 2 0 0 O 2 17
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+.SolderMask 0.254
+.LocalClearance 0.254
+$EndPAD
+$EndMODULE dsk-drill-rpi-hat-cam
+$MODULE dsk-testpoint
+Po 0 0 0 15 54ECEAEB 00000000 ~~
+Li dsk-testpoint
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1.4 0.75 0.75 0 0.12 N I 21 N "dsk-testpoint"
+T1 0 -2.2 0.75 0.75 0 0.12 N I 21 N "VAL**"
+$PAD
+Sh "1" C 0.5 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE dsk-testpoint
+$MODULE hat-PIN_ARRAY_20X2
+Po 0 0 0 15 5031D84E 00000000 ~~
+Li hat-PIN_ARRAY_20X2
+Cd Double rangee de contacts 2 x 12 pins
+Kw CONN
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.27432 N V 21 N "REF*"
+T1 0 3.81 1.016 1.016 0 0.2032 N V 21 N "PIN_ARRAY_20X2"
+DS 25.4 2.54 -25.4 2.54 0.3048 21
+DS 25.4 -2.54 -25.4 -2.54 0.3048 21
+DS 25.4 -2.54 25.4 2.54 0.3048 21
+DS -25.4 -2.54 -25.4 2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -24.13 1.27
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po -24.13 -1.27
+$EndPAD
+$PAD
+Sh "11" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 18 "PA8_1"
+Po -11.43 1.27
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 11 "PA1_1"
+Po -21.59 -1.27
+$EndPAD
+$PAD
+Sh "13" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 5 "PA10_1"
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 13 "PA3_1"
+Po -19.05 -1.27
+$EndPAD
+$PAD
+Sh "15" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 7 "PA12_1"
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "8" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 15 "PA5_1"
+Po -16.51 -1.27
+$EndPAD
+$PAD
+Sh "17" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 9 "PA14_1"
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "10" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 17 "PA7_1"
+Po -13.97 -1.27
+$EndPAD
+$PAD
+Sh "19" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "12" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 19 "PA9_1"
+Po -11.43 -1.27
+$EndPAD
+$PAD
+Sh "21" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "14" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 6 "PA11_1"
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "23" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 2 "INT1_1"
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "16" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 8 "PA13_1"
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "25" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "18" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 10 "PA15_1"
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "27" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "20" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "29" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 22 "VCC"
+Po 11.43 1.27
+$EndPAD
+$PAD
+Sh "22" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "31" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 22 "VCC"
+Po 13.97 1.27
+$EndPAD
+$PAD
+Sh "24" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 3 "INT2_1"
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "26" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "33" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 21 "Tin1_cold_1"
+Po 16.51 1.27
+$EndPAD
+$PAD
+Sh "28" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 10 "PA15_1"
+Po 8.89 -1.27
+$EndPAD
+$PAD
+Sh "32" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po 13.97 -1.27
+$EndPAD
+$PAD
+Sh "34" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 16.51 -1.27
+$EndPAD
+$PAD
+Sh "36" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 -1.27
+$EndPAD
+$PAD
+Sh "38" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 -1.27
+$EndPAD
+$PAD
+Sh "35" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 1.27
+$EndPAD
+$PAD
+Sh "37" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 20 "PB4_1"
+Po 21.59 1.27
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 4 "PA0_1"
+Po -21.59 1.27
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 12 "PA2_1"
+Po -19.05 1.27
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 14 "PA4_1"
+Po -16.51 1.27
+$EndPAD
+$PAD
+Sh "9" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 16 "PA6_1"
+Po -13.97 1.27
+$EndPAD
+$PAD
+Sh "39" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 24.13 1.27
+$EndPAD
+$PAD
+Sh "40" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 24.13 -1.27
+$EndPAD
+$PAD
+Sh "30" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po 11.43 -1.27
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_20x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE hat-PIN_ARRAY_20X2
+$EndLIBRARY
